@@ -93,7 +93,7 @@
       if: ${{ needs.release.outputs.published == 'true' }}
       strategy:
         matrix:
-          ostype: [linux-gnu]
+          ostype: [linux-gnu, linux-musl]
       runs-on: ubuntu-latest
       steps:
       - name: Log in to the Container registry
