@@ -1,3 +1,6 @@
+additional:
+  - "kong-openssl"
+
 files:
   - "!.gitignore"
   - "!.github/template-sync.yml"
