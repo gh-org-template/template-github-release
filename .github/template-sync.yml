@@ -9,7 +9,7 @@ files:
   - "!Makefile"
   - "!.github/dependabot.yml"
   - "!.github/workflows/sync.yaml"
-  - "!.github/workflows/release.yaml"
+  - "!.github/workflows/release.yml"
   - "!.releaserc"
   - "!build.sh"
   - "!test.sh"
